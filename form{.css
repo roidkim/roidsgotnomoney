@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YIPPIE</title>
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('background.jpg'); /* Add your background image URL here */
+            background-size: cover;
+            text-align: center; /* Center all text */
+        }
+        header {
+            background-color: rgb(0, 247, 255); /* Add a semi-transparent white background for readability */
+            padding: 7px;
+        }
+        h1 {
+            margin: 0;
+        }
+        .hobbies {
+            margin-top: 7px;
+        }
+        ul, ol {
+             /* Add some left padding to maintain the bullet points and numbers */
+            text-align: center;
+            list-style-position: inside;
+        }
+        ul {
+            display: flex; /* Center unordered list items horizontally */
+            justify-content: center;
+        }
+        ol {
+            text-align: center; /* Center ordered list items */
+        }
+        table {
+            
+            border-collapse: collapse;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        th, td {
+            border: 8px solid rgb(255, 0, 221);
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #612424;
+        }
+        /* Navigation bar styles (unchanged) */
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            color: rgb(0, 255, 0);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: rgb(238, 32, 32);
+            color: rgb(141, 82, 82);
+        }
+    </style>
+</head>
